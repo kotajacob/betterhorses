@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "betterhorses",
+  "version": "${version}",
+
+  "name": "Better Horses",
+  "description": "Improves the horse breeding algorithm.",
+  "authors": [
+    "kota"
+  ],
+  "contact": {
+    "homepage": "https://git.sr.ht/~kota/betterhorses",
+    "sources": "https://git.sr.ht/~kota/betterhorses"
+  },
+
+  "license": "LGPL-3.0",
+  "icon": "assets/betterhorses/icon.png",
+
+  "environment": "*",
+  "mixins": [
+    "betterhorses.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
